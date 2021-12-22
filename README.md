@@ -1,1 +1,1 @@
-# rsschool-cv
+https://pist0ner.github.io/rsschool-cv/cv
