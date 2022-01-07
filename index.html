@@ -1,13 +1,72 @@
 <!doctype html>
-<html lang=ru>
+<html class="page" lang=ru>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+   <header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="list__item"><a href="#about-me">About me</a> </li>
+                <li class="list__item"><a href="#contact">Contact</a> </li>
 
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="left-side">
+            <figure class="left-side__figure">
+                <img
+                    src="img/avatar.jpg"
+                    width="399"
+                    height="500"
+                    class="photo"
+                    alt="photo of Nikolay Malygin"
+                />
+            </figure>
+            <div id="contact">
+                <h2 class="section-title">Contact</h2>
+                <ul class="contact-list">
+                    <li>Location: Sverdlovskaya obl., Russia </li>
+                    <li>Phone: <a href="tel: +79090252057">+7 909-025-20-57</a> </li>
+                    <li>Email: <a href="mailto: zx-sp@list.ru">zx-sp@list.ru</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="page-title">
+                <h1>Nikolay<br />Malygin</h1>
+                <p>Front-End developer</p>
+            </div>
+            <div id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p> Purposeful and easy to train, I like to work in a team. Always focused on achieving the best result. I can work with a large number of tasks and in a short time. I like to learn new things, follow current trends, study technical literature.
+                At the moment I continue to study programming in the direction of Frontend development.
+                </p>
+            </div>
+        </div>
+    </main>
+
+   <footer class="footer">
+       <a class="footer__github" href="https://github.com/Pist0ner/rsschool-cv" target="_blank">
+           My GitHub
+       </a>
+       <p class="footer__year">2022</p>
+       <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+           <img
+                   src="img/rs_school_js.svg"
+                   width="86"
+                   height="32"
+                   alt="RS School"
+           />
+       </a>
+   </footer>
 </body>
 </html>
